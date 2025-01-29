@@ -1,0 +1,48 @@
+/* The common text font  */
+
+.azeret-mono-uniquifier {
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+/* Nav styles */
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 50px 150px 0px ;
+}
+.nav-title{
+   font-weight: 700;
+   font-size: 28px;
+}
+nav ul li {
+   list-style: none;
+
+}
+.btn-no-need{
+   font-weight: bold;
+   font-size: 20px;
+   padding: 17px 24px;
+   color: #0D1321;
+   border-radius: 8px;
+}
+
+/* banner styles */
+.banner{
+   margin: 131px 0px 0px 0px;
+   background-image: url('../image/Hero-bg.png') ;
+}
+.banner-content{
+   max-width: 1440px;
+}
+.banner-title{
+   font-size: 48px;
+   font-weight: bolder;
+}
+.banner-profile-pic{
+   width: 240.28px;
+}
