@@ -7,6 +7,9 @@
   font-style: normal;
 }
 
+.text-center{
+   text-align: center;
+}
 
 /* Nav styles */
 nav{
@@ -33,16 +36,195 @@ nav ul li {
 
 /* banner styles */
 .banner{
-   margin: 131px 0px 0px 0px;
    background-image: url('../image/Hero-bg.png') ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 652px;
+   
 }
 .banner-content{
+   
+   text-align: center;
    max-width: 1440px;
+   margin: 0 auto;
+   /* margin: 26px 221px  45px;                                                 ; */
 }
 .banner-title{
    font-size: 48px;
    font-weight: bolder;
+   text-align: center;
 }
 .banner-profile-pic{
    width: 240.28px;
+   margin: 0px 599.86px 0px;
+}
+.btn-primary{
+   background-color: #0D1321;
+   color: white;
+   font-weight: bold;
+   margin: 21px 24px;
+   border-radius: 8px;
+   width: 244px;
+   height: 65px;
+
+}
+.banner-description{
+   align-self: center;
+   text-align: center;
+}
+
+
+/* main  */
+
+.section-title{
+   font-size: 35px;
+   font-weight: bold;
+   color: #0D1321;
+}
+.section-description{
+   font-size: 16px;
+   color: #0D1321;
+}
+
+main{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.debeloperment{
+   padding: 48px;
+}
+
+/* about  */
+
+.about{
+   border-radius: 10px;
+   padding: 80px 47px;
+   text-align: center;
+   margin-top: 80px;
+}
+
+.banner-container{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 48px;
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.about-info{
+   padding: 48px;
+   max-width: 477px;
+
+}
+.video-you{
+   margin-top: 48px;
+}
+
+/* skils section style */
+.skills-container{
+   display: flex;
+   gap: 24px;
+}
+.skill{
+   padding: 30px;
+   border-radius: 5px;
+   box-shadow: 0px 4px 4px 0px #000000 25%;
+}
+.dark-1{
+   color: #0D1321;
+}
+.next-skill{
+   display: flex;
+   margin: 64px 0px;
+}
+
+
+/* My Next Targer */
+.My-Next-target{
+   margin-top: 48px;
+}
+.title-work{
+   margin-left: 24px;
+}
+.image{
+   width: 95px;
+   height: 85px;
+   padding: 15.5px 40px 15.5px 0px ;
+   image-orientation: 24.78px;
+   image-resolution: 94.78px 108px;
+   size: 94.45px;
+   object-fit: cover;
+}
+.image-nod{
+   width: 143px;
+   height: 88px;
+}
+
+/* I need support */
+
+.need-container {
+   text-align: center;
+   padding: 20px;
+   background-color: #f4f4f4;
+   border-radius: 10px;
+   width: 50%;
+   margin: auto;
+}
+
+.skill-title {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.skill-submit {
+   font-size: 16px;
+   color: #bec9c9;
+}
+
+.submit-btn {
+   margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.submit-btn input {
+   padding: 10px;
+   width: 250px;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+.submit-btn button {
+   padding: 10px 20px;
+   border: none;
+   background-color: #007BFF;
+   color: white;
+   font-size: 16px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.submit-btn button:hover {
+   background-color: #0056b3;
+}
+.need-container{
+   background-image: url(../image/handshake.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 313px;
+   padding: 20px 10px;
+}
+
+/* footer */
+
+.main-container{
+   display: flex;
+   justify-content: space-around;
+   margin: 38px 150px;
+   padding: ;
 }
